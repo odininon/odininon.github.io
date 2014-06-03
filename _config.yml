@@ -1,9 +1,11 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: The Realm of Freyja
+email: freyja@aesireanempire.com
+description: "Realm of the random speakings of Freyjadono. Current Minecraft mod junkie, and long time enjoyer of all things computers."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://odininon.github.io"
+git-username: odininon
+twitter-username: mssodin28
 
 # Build settings
 markdown: kramdown
