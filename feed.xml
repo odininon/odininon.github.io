@@ -1,21 +1,24 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>The Realm of Freyja</title>
+    <description>Realm of the random speakings of Freyjadono. Current Minecraft mod junkie, and long time enjoyer of all things computers.</description>
+    <link>http://odininon.github.io/</link>
+    <atom:link href="http://odininon.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>Welcome to the new Site</title>
+        <description>&lt;p&gt;Pardon the mess as I make adjustments to my new blog.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile enjoy this random gif I found.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/6SQPHrF.gif&quot; alt=&quot;adopose&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://odininon.github.io/2014/06/03/welcome-to-new-site/</link>
+        <guid isPermaLink="true">http://odininon.github.io/2014/06/03/welcome-to-new-site/</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
